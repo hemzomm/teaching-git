@@ -1,0 +1,156 @@
+----------------Git Everything ------------
+
+-----------Introduction-------------------ref:img1 2 3
+
+--------------Install Git----------------------
+
+---------------Using this link:  https://gitforwindows.org/ 
+--------Open you cmd and run first command --------- git --version
+
+----Success Message------------git version 2.41.0.windows.3
+
+-------------Failed Message --------is not recognized as an internal or external command,
+
+----------Ctrl+ l------remove everything from consloe\
+
+
+git config --global user.name "hemz"
+git config --global user.email "hemzomm@gmail.com"
+git config --gloabal user.ui auto
+
+Ctrl+l
+
+git config
+
+
+ctrl+l
+
+git config -l
+
+-----------mkdir folderforgithub          -----------
+----------- cd newfolder   -------------- navigate to the folder that you want work on
+
+------------git add--------------- you will see not a git repo
+
+------------git init . ------------initialize git local
+repository
+
+
+git ls -a   ------------list all file hiden as well
+
+git -rm .git ----------------remove the git you will out of the git(master) or you will delete .git init 
+
+git init . 
+
+touch hello.html style.css script.js hello.txt ............. still these files are not in staging area
+
+ls
+
+git stauts
+
+git add hello.html -----------one file in staging area
+
+git status
+
+git add .  ---------------- all files are in staging area
+git status
+
+
+git add file1.exrention----------to add single file
+
+
+git rm --cached hello.html
+
+git status
+git rm -r --cached .
+
+git mkdir test
+touch test.txt
+
+git status
+
+git add -A 
+git status
+
+git commit -m " message for saving point in saving area"
+git log
+
+git show hashcode
+
+
+vi index.html
+
+PRESS I and add sowe tesxt and 
+
+PRESS ESC and :wq to write and exit
+
+
+git status
+
+touch index.html
+
+
+ls
+
+
+cat index.html
+
+
+git restore --staged index.html
+cat index.html
+
+
+git add index.html
+
+git commit -m"heading is added to index page"
+
+git log
+
+
+nano index.css
+write some css text for h1 tag
+
+git status
+git add index.css
+git commit -m"kfjsahkjd"
+
+
+git log
+
+------- change the message to meaning ful name 
+git commit --amend -m "css added to the h1 tag "
+
+
+
+
+
+=============Now PUSH=============
+
+===========Here comes Git Hub========= 
+
+login to git hub
+
+create a repository teaching-git
+
+
+git remote add origin git@github.com:hemzomm/teaching-git.git
+
+git branch -M main
+git push -u origin main
+
+git remote add origin https://github.com/hemzomm/teaching-git.git
+git branch -M main
+git push -u origin main
+
+
+
+
+
+
+
+
+
+
+
+
+
